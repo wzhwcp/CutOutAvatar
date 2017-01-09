@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CutOutAvatar</string>
+
+    <string name="bind_school">安卓第六小学</string>
+    <string name="id_title">学生证</string>
+    <string name="re_take_photo">重拍</string>
+    <string name="cut_out_photo">裁剪图片</string>
+
+
+
+
+</resources>

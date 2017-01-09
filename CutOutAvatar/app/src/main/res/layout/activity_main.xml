@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dragAttrs="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <include layout="@layout/cutout_layout"></include>
+
+    <include layout="@layout/preview_userinfo_activity"></include>
+
+    <TextView
+        android:id="@+id/cut_out_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40px"
+        android:text="@string/cut_out_photo"
+        android:textColor="@android:color/white"
+        android:textSize="24px" />
+
+    <ImageButton
+        android:id="@+id/btn_cutout_finish"
+        android:layout_width="150px"
+        android:layout_height="50px"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15px"
+        android:background="@drawable/upload_avatar_icon_down" />
+
+</RelativeLayout>

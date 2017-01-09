@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.wcp.cutoutavatar.view.CutOutLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cutout_layout"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+    <com.example.wcp.cutoutavatar.view.ZoomImage
+        android:id="@+id/show_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.example.wcp.cutoutavatar.view.MasklayerCircleView
+        android:id="@+id/mask_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:outPutShape = "0"
+        custom:dashLineRect="false"
+        custom:entityCircleOnLine="false"
+        custom:centerX="240"
+        custom:centerY="360"
+        custom:bigCircleRadius="150" />
+</com.example.wcp.cutoutavatar.view.CutOutLayout>

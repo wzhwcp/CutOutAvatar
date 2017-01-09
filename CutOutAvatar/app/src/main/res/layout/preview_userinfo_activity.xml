@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/idGetUserInfoLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:visibility="visible">
+
+    <ImageView
+        android:id="@+id/bindUserAvatar"
+        android:layout_width="167dp"
+        android:layout_height="167dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/re_take_piture"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:drawableBottom="@drawable/bottom_line"
+        android:drawablePadding="3px"
+        android:padding="4px"
+        android:text="@string/re_take_photo"
+        android:textColor="@android:color/white"
+        android:textSize="24px">
+    </TextView>
+
+</RelativeLayout>
